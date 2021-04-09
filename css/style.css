@@ -48,6 +48,9 @@ header nav ol li:hover{
     width: 100%;
     height: 90vh;
     background-image: url('https://coosmetic.com/blog/wp-content/uploads/2014/02/la-foto-11-e1392468285384-1024x768.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .container .filter{
@@ -218,4 +221,160 @@ footer .row .col-30:nth-child(2) ul li:hover{
 footer .row .col-30:nth-child(3) p{
     font-family: 'Barlow', sans-serif;
     font-size: 1.3rem;
+}
+
+/* *************************************** */
+/* Responsive */
+
+@media (max-width: 1080px){
+    header nav ol li{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 940px){
+    footer .row .col-30{
+        width: 18em;
+    }
+
+@media (max-width: 768px) {
+    header nav ol{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container{
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .container .filter{
+        width: 100%;
+        height: 70vh;
+    }
+
+    .container .filter .col-60 button{
+        width: 35%;
+    }
+    footer .row{
+        width: 95%;
+    }
+
+    footer .row .col-30{
+        width: 18em;
+    }
+
+    footer .row .col-30:nth-child(1){
+        width: 15em;
+    }
+
+    footer .row .col-30:nth-child(2){
+        width: 15em;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav ol li{
+        font-size: 1.3rem;
+    }
+
+    .container{
+        width: 100%;
+        height: 60vh;
+    }
+    
+    .container .filter{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .container .filter .col-60{
+        width: 90%;
+        margin: 0 50px;
+    }
+    
+    .container .filter .col-60 h2{
+        font-size: 2.6rem;
+        text-align: center;
+    }
+    
+    .container .filter .col-60 p{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    
+    .container .filter .col-60 button{
+        width: 100%;
+    }
+
+    .container-main .row{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    
+    footer .row .col-30{
+        width: 20em;
+    }
+    
+    footer .row .col-30:nth-child(1) ul{
+        margin-left: 10%;
+    }
+    
+    footer .row .col-30:nth-child(3) p{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 360px) {
+    header{
+        height: 25vh;
+    }
+    
+    header nav{
+        height: 25vh;
+    }
+    
+    header nav ol{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    header nav ol li{
+        font-size: 1.4rem;
+    }
+    .container{
+        height: 50vh;
+    }
+    .container .filter .col-60{
+        width: 100%;
+        height: 50vh;
+        margin: 0 30px;
+        
+    }
+    
+    .container .filter .col-60 h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .container .filter .col-60 p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
 }
