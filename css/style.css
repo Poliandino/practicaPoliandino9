@@ -273,7 +273,7 @@ footer .row .col-30:nth-child(3) p{
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width:480px ) {
     header nav ol li{
         font-size: 1.3rem;
     }
@@ -281,6 +281,7 @@ footer .row .col-30:nth-child(3) p{
     .container{
         width: 100%;
         height: 60vh;
+        background-size: 100% 100%;
     }
     
     .container .filter{
@@ -360,10 +361,15 @@ footer .row .col-30:nth-child(3) p{
     }
     .container{
         height: 50vh;
+        background-size: 120% 100%;
+    }
+
+    .container .filter{
+        height: 50vh;
     }
     .container .filter .col-60{
         width: 100%;
-        height: 50vh;
+        height: 40vh;
         margin: 0 30px;
         
     }
