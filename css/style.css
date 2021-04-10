@@ -44,11 +44,10 @@ header nav ol li:hover{
 
 /* *************************************** */
 
-
 .container{
     width: 100%;
     height: 90vh;
-    background-image: url('https://soyfanimal.com/wp-content/uploads/2018/08/GatosCarton1.jpg');
+    background-image: url('https://mcusercontent.com/6b6d2b856f5cf7d3e82bc238f/images/938f63a4-6e98-4e35-824d-bcfeb3050150.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -127,20 +126,20 @@ header nav ol li:hover{
 }
 
 .container-main .row .col-30:nth-child(1){
-    background-image: url('https://www.zooplus.es/magazine/wp-content/uploads/2017/10/fotolia_103481419-1024x682.jpg');
+    background-image: url('https://mcusercontent.com/6b6d2b856f5cf7d3e82bc238f/images/7f50f929-317f-4ce0-af2a-a1787935cc6f.jpg');
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
     
 }
 .container-main .row .col-30:nth-child(2){
-    background-image: url('https://t2.ea.ltmcdn.com/es/images/8/4/8/alimentacion_del_gato_esfinge_21848_0_600.jpg');
+    background-image: url('https://mcusercontent.com/6b6d2b856f5cf7d3e82bc238f/images/e3ea947c-d1af-49be-b0d3-b0a86f11892e.jpg');
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
 }
 .container-main .row .col-30:nth-child(3){
-    background-image: url('https://www.para-gatos.net/wp-content/uploads/2020/03/gato-himalayo-color-point.jpg');
+    background-image: url('https://mcusercontent.com/6b6d2b856f5cf7d3e82bc238f/images/da7eb0d5-1524-43c7-b9ba-6f4eaabbc20e.jpg');
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -328,7 +327,6 @@ footer .row .col-30:nth-child(3) p{
 
     .container .filter .col-60{
         width: 90%;
-        /* margin: 0 50px; */
     }
     
     .container .filter .col-60 h2{
